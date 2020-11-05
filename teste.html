@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
+	<script src="scripts.js"></script>
+	<title>Trabalho WEB-II</title>
+</head>
+<body>
+	
+		<input type="submit" value="Slavar" class="botao1">			
+		<input type="reset" value="Cancelar" class="botao"><br>
+
+	<section id="contato" >
+
+		<form id="contato2" name="fContato" method="post" action="#">
+
+		
+			<img src="usuario.png">
+
+			<label class="cod" style="color:gray;" >Código</label>
+			<input type="text" maxlength="30" size="10" name="fNome" ><br><br>
+		
+			<label  class="nome">Nome</label>
+			<input type="text" maxlength="50" size="45" name="fNome" autofocus required><br><br>
+
+			<span>	
+				<label class="desc">Data de Nasc</label>
+				<input type="date" maxlength="50" size="10" name="fNascimento"  required>
+			
+				<label class="sexo">Sexo</label>
+				<select >
+					<option>Masculino</option>
+					<option>Feminino</option>
+				</select>     
+
+			</span>
+			<br><br>
+			
+				<span>
+					<label class="tel">Telefone</label>
+					<input type="tel" maxlength="15" size="15" name="fFone" placeholder="(xx)xxxx-xxxx" required>
+				</span>	
+			<label class="end">Endereço</label>
+			<textarea  name="Endereço" cols="39" rows="6"></textarea><br><br>
+
+			<label class="email">Email</label><input type="email" maxlength="50" size="28" name="f_Email" required><br>
+			
+		</form>
+	</section>	
+</body>
+</html>

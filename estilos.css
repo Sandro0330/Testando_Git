@@ -1,0 +1,93 @@
+body{
+	margin: 0 auto;
+	width: 960px;
+	background-color: #ff1a1a;
+	
+}
+
+img	{
+	margin-top: -1px;
+	float: right;
+
+}
+
+input{
+	font: 18px san-serif Arial;
+}
+
+
+label {
+  display: inline-block;
+  padding: 10px;
+}
+
+
+#contato{
+	margin-top: 20px;
+	background: #ffcc99;
+	padding:20px;
+	width: 800px;
+	border-radius: 20px;
+}
+
+#contato {
+	width: 80%;
+
+}
+
+.botao1 {
+	margin: 10px;
+	background-color: #3385ff; 
+}
+
+.cod {
+	margin-right: 48px;
+}
+
+
+.nome {
+	margin-right: 55px;
+}
+
+
+
+
+.sexo {
+	margin-left: 121px;
+}
+
+.tel {
+	margin-right: 40px;
+}
+
+.cel {
+	margin-left: 70px;
+}
+
+.desc {
+	margin-right: 10px;
+
+}
+
+.rg {
+	margin-right: 78px; 
+
+}
+
+.cpf {
+	margin-right: 76px;
+
+}
+
+
+.end {
+	margin-right: 37px;
+	float: left;
+	
+}
+
+.email {
+	margin-right:  60px;
+}
+
+
